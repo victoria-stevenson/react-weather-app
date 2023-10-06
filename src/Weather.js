@@ -60,7 +60,7 @@ export default function Weather() {
         <small>
           {" "}
           <a
-            href="https://github.com/victoria-stevenson/weather-app"
+            href="https://github.com/victoria-stevenson/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
