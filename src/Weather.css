@@ -18,10 +18,7 @@
   color: grey;
   line-height: 1.2;
 }
-.current-time {
-  position: relative;
-  top: -25px;
-}
+
 .temp-today-column {
   text-align: right;
 }
