@@ -16,7 +16,7 @@ export default function WeatherInfo(props) {
         </div>
 
         <div className="col-6 temp-today-column">
-          <img src="#" alt="" className="icon" id="icon" />
+          <span className="icon">{props.data.icon}</span>
           <span className="temp-today-font">
             {Math.round(props.data.temperature)}
           </span>
