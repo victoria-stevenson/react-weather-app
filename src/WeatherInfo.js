@@ -9,11 +9,11 @@ export default function WeatherInfo(props) {
       <div className="row">
         <div className="col-6 city">
           <h1>{props.data.city}</h1>
-          <p className="today-details">
+          <div className="today-details">
             <div className="text-capitalize">{props.data.description} </div>
             Humidity: {props.data.humidity}% <br />
             Wind: {Math.round(props.data.wind)} km/h
-          </p>
+          </div>
         </div>
 
         <div className="col-6 temp-today-column">

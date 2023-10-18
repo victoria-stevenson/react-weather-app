@@ -36,15 +36,18 @@
 .icon {
   position: relative;
   top: -18px;
-  background: rgb(205, 218, 232);
+  background: rgb(186, 206, 227);
   background: radial-gradient(
     circle,
-    rgba(205, 218, 232, 1) 0%,
-    rgba(229, 235, 242, 0.5032387955182073) 47%,
-    rgba(245, 246, 247, 0) 71%
+    rgba(205, 218, 232, 1) 10%,
+    rgba(229, 235, 242, 0.5032387955182073) 40%,
+    rgba(245, 246, 247, 0) 45%
   );
-  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 25px;
+  max-width: 20px;
 }
+
 .temp-unit {
   font-size: 15px;
   margin-top: 7px;
@@ -103,7 +106,10 @@
     rgba(229, 235, 242, 0.5032387955182073) 41%,
     rgba(245, 246, 247, 0) 66%
   );
-  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 7px;
+  max-width: 35px;
+  margin: 0 auto;
 }
 
 .forecast-min-temp {
