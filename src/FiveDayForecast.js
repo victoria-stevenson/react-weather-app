@@ -19,7 +19,7 @@ export default function FiveDayForecast(props) {
           {forecast.map(function (dailyForecast, index) {
             if (index < 5) {
               return (
-                <div key="index" className="col weekdays frame">
+                <div key={index} className="col weekdays frame">
                   <WeatherForecastDay data={dailyForecast} />
                 </div>
               );

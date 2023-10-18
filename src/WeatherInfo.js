@@ -20,9 +20,9 @@ export default function WeatherInfo(props) {
           <span className="icon">{props.data.icon}</span>
           <WeatherTemperature celsius={props.data.temperature} />
 
-          <p>
+          <div>
             <FormattedDate date={props.data.date} />
-          </p>
+          </div>
         </div>
       </div>
       <hr />

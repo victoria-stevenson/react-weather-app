@@ -63,27 +63,20 @@
 }
 
 .search-field,
-.submit-button,
-.current-city-button {
+.submit-button {
   border: 1px solid lightgray;
   border-radius: 6px;
   margin-top: 10px;
   margin-bottom: 30px;
   background: white;
 }
+
+.submit-button {
+  margin-left: 10px;
+}
+
 .search-field {
   width: 100%;
-}
-
-.current-city-button {
-  position: relative;
-  right: -15px;
-}
-.current-city-button:hover,
-.submit-button:hover {
-  background: #f5f8fb;
-
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .description {
